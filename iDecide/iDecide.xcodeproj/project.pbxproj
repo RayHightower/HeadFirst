@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F605091160A76AB006E889C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F605090160A76AB006E889C /* UIKit.framework */; };
+		6F605093160A76AB006E889C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F605092160A76AB006E889C /* Foundation.framework */; };
+		6F605095160A76AB006E889C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F605094160A76AB006E889C /* CoreGraphics.framework */; };
+		6F60509B160A76AB006E889C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F605099160A76AB006E889C /* InfoPlist.strings */; };
+		6F60509D160A76AB006E889C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F60509C160A76AB006E889C /* main.m */; };
+		6F6050A1160A76AB006E889C /* iDecideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6050A0160A76AB006E889C /* iDecideAppDelegate.m */; };
+		6F6050A4160A76AB006E889C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6050A2160A76AB006E889C /* MainStoryboard_iPhone.storyboard */; };
+		6F6050A7160A76AB006E889C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6050A5160A76AB006E889C /* MainStoryboard_iPad.storyboard */; };
+		6F6050AA160A76AB006E889C /* iDecideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6050A9160A76AB006E889C /* iDecideViewController.m */; };
+		6F6050B2160A76AB006E889C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6050B1160A76AB006E889C /* SenTestingKit.framework */; };
+		6F6050B3160A76AB006E889C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F605090160A76AB006E889C /* UIKit.framework */; };
+		6F6050B4160A76AB006E889C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F605092160A76AB006E889C /* Foundation.framework */; };
+		6F6050BC160A76AB006E889C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F6050BA160A76AB006E889C /* InfoPlist.strings */; };
+		6F6050BF160A76AB006E889C /* iDecideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6050BE160A76AB006E889C /* iDecideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F6050B5160A76AB006E889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F605083160A76AB006E889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F60508B160A76AB006E889C;
+			remoteInfo = iDecide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F60508C160A76AB006E889C /* iDecide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDecide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F605090160A76AB006E889C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F605092160A76AB006E889C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F605094160A76AB006E889C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F605098160A76AB006E889C /* iDecide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDecide-Info.plist"; sourceTree = "<group>"; };
+		6F60509A160A76AB006E889C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F60509C160A76AB006E889C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F60509E160A76AB006E889C /* iDecide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDecide-Prefix.pch"; sourceTree = "<group>"; };
+		6F60509F160A76AB006E889C /* iDecideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDecideAppDelegate.h; sourceTree = "<group>"; };
+		6F6050A0160A76AB006E889C /* iDecideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideAppDelegate.m; sourceTree = "<group>"; };
+		6F6050A3160A76AB006E889C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6F6050A6160A76AB006E889C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6F6050A8160A76AB006E889C /* iDecideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDecideViewController.h; sourceTree = "<group>"; };
+		6F6050A9160A76AB006E889C /* iDecideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideViewController.m; sourceTree = "<group>"; };
+		6F6050B0160A76AB006E889C /* iDecideTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDecideTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6050B1160A76AB006E889C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6F6050B9160A76AB006E889C /* iDecideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDecideTests-Info.plist"; sourceTree = "<group>"; };
+		6F6050BB160A76AB006E889C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F6050BD160A76AB006E889C /* iDecideTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDecideTests.h; sourceTree = "<group>"; };
+		6F6050BE160A76AB006E889C /* iDecideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F605089160A76AB006E889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F605091160A76AB006E889C /* UIKit.framework in Frameworks */,
+				6F605093160A76AB006E889C /* Foundation.framework in Frameworks */,
+				6F605095160A76AB006E889C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6050AC160A76AB006E889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6050B2160A76AB006E889C /* SenTestingKit.framework in Frameworks */,
+				6F6050B3160A76AB006E889C /* UIKit.framework in Frameworks */,
+				6F6050B4160A76AB006E889C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F605081160A76AB006E889C = {
+			isa = PBXGroup;
+			children = (
+				6F605096160A76AB006E889C /* iDecide */,
+				6F6050B7160A76AB006E889C /* iDecideTests */,
+				6F60508F160A76AB006E889C /* Frameworks */,
+				6F60508D160A76AB006E889C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F60508D160A76AB006E889C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F60508C160A76AB006E889C /* iDecide.app */,
+				6F6050B0160A76AB006E889C /* iDecideTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F60508F160A76AB006E889C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F605090160A76AB006E889C /* UIKit.framework */,
+				6F605092160A76AB006E889C /* Foundation.framework */,
+				6F605094160A76AB006E889C /* CoreGraphics.framework */,
+				6F6050B1160A76AB006E889C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F605096160A76AB006E889C /* iDecide */ = {
+			isa = PBXGroup;
+			children = (
+				6F60509F160A76AB006E889C /* iDecideAppDelegate.h */,
+				6F6050A0160A76AB006E889C /* iDecideAppDelegate.m */,
+				6F6050A2160A76AB006E889C /* MainStoryboard_iPhone.storyboard */,
+				6F6050A5160A76AB006E889C /* MainStoryboard_iPad.storyboard */,
+				6F6050A8160A76AB006E889C /* iDecideViewController.h */,
+				6F6050A9160A76AB006E889C /* iDecideViewController.m */,
+				6F605097160A76AB006E889C /* Supporting Files */,
+			);
+			path = iDecide;
+			sourceTree = "<group>";
+		};
+		6F605097160A76AB006E889C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F605098160A76AB006E889C /* iDecide-Info.plist */,
+				6F605099160A76AB006E889C /* InfoPlist.strings */,
+				6F60509C160A76AB006E889C /* main.m */,
+				6F60509E160A76AB006E889C /* iDecide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F6050B7160A76AB006E889C /* iDecideTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6050BD160A76AB006E889C /* iDecideTests.h */,
+				6F6050BE160A76AB006E889C /* iDecideTests.m */,
+				6F6050B8160A76AB006E889C /* Supporting Files */,
+			);
+			path = iDecideTests;
+			sourceTree = "<group>";
+		};
+		6F6050B8160A76AB006E889C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6050B9160A76AB006E889C /* iDecideTests-Info.plist */,
+				6F6050BA160A76AB006E889C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F60508B160A76AB006E889C /* iDecide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6050C2160A76AB006E889C /* Build configuration list for PBXNativeTarget "iDecide" */;
+			buildPhases = (
+				6F605088160A76AB006E889C /* Sources */,
+				6F605089160A76AB006E889C /* Frameworks */,
+				6F60508A160A76AB006E889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDecide;
+			productName = iDecide;
+			productReference = 6F60508C160A76AB006E889C /* iDecide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F6050AF160A76AB006E889C /* iDecideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6050C5160A76AB006E889C /* Build configuration list for PBXNativeTarget "iDecideTests" */;
+			buildPhases = (
+				6F6050AB160A76AB006E889C /* Sources */,
+				6F6050AC160A76AB006E889C /* Frameworks */,
+				6F6050AD160A76AB006E889C /* Resources */,
+				6F6050AE160A76AB006E889C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6050B6160A76AB006E889C /* PBXTargetDependency */,
+			);
+			name = iDecideTests;
+			productName = iDecideTests;
+			productReference = 6F6050B0160A76AB006E889C /* iDecideTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F605083160A76AB006E889C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iDecide;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = WisdomGroup;
+			};
+			buildConfigurationList = 6F605086160A76AB006E889C /* Build configuration list for PBXProject "iDecide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F605081160A76AB006E889C;
+			productRefGroup = 6F60508D160A76AB006E889C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F60508B160A76AB006E889C /* iDecide */,
+				6F6050AF160A76AB006E889C /* iDecideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F60508A160A76AB006E889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F60509B160A76AB006E889C /* InfoPlist.strings in Resources */,
+				6F6050A4160A76AB006E889C /* MainStoryboard_iPhone.storyboard in Resources */,
+				6F6050A7160A76AB006E889C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6050AD160A76AB006E889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6050BC160A76AB006E889C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F6050AE160A76AB006E889C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F605088160A76AB006E889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F60509D160A76AB006E889C /* main.m in Sources */,
+				6F6050A1160A76AB006E889C /* iDecideAppDelegate.m in Sources */,
+				6F6050AA160A76AB006E889C /* iDecideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6050AB160A76AB006E889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6050BF160A76AB006E889C /* iDecideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F6050B6160A76AB006E889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F60508B160A76AB006E889C /* iDecide */;
+			targetProxy = 6F6050B5160A76AB006E889C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F605099160A76AB006E889C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F60509A160A76AB006E889C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F6050A2160A76AB006E889C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6050A3160A76AB006E889C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6F6050A5160A76AB006E889C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6050A6160A76AB006E889C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6F6050BA160A76AB006E889C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6050BB160A76AB006E889C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F6050C0160A76AB006E889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F6050C1160A76AB006E889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F6050C3160A76AB006E889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecide/iDecide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F6050C4160A76AB006E889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecide/iDecide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F6050C6160A76AB006E889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDecide.app/iDecide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecideTests/iDecideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6F6050C7160A76AB006E889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDecide.app/iDecide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecideTests/iDecideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F605086160A76AB006E889C /* Build configuration list for PBXProject "iDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6050C0160A76AB006E889C /* Debug */,
+				6F6050C1160A76AB006E889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6050C2160A76AB006E889C /* Build configuration list for PBXNativeTarget "iDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6050C3160A76AB006E889C /* Debug */,
+				6F6050C4160A76AB006E889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F6050C5160A76AB006E889C /* Build configuration list for PBXNativeTarget "iDecideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6050C6160A76AB006E889C /* Debug */,
+				6F6050C7160A76AB006E889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F605083160A76AB006E889C /* Project object */;
+}
