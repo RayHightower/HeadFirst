@@ -20,6 +20,7 @@
 		6FD33427160A85EB008FBC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD33408160A85EA008FBC6B /* Foundation.framework */; };
 		6FD3342F160A85EB008FBC6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FD3342D160A85EB008FBC6B /* InfoPlist.strings */; };
 		6FD33432160A85EB008FBC6B /* InstaEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD33431160A85EB008FBC6B /* InstaEmailTests.m */; };
+		6FD3343C160A8696008FBC6B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD3343B160A8696008FBC6B /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		6FD3342E160A85EB008FBC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FD33430160A85EB008FBC6B /* InstaEmailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaEmailTests.h; sourceTree = "<group>"; };
 		6FD33431160A85EB008FBC6B /* InstaEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaEmailTests.m; sourceTree = "<group>"; };
+		6FD3343B160A8696008FBC6B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD3343C160A8696008FBC6B /* MessageUI.framework in Frameworks */,
 				6FD33407160A85EA008FBC6B /* UIKit.framework in Frameworks */,
 				6FD33409160A85EA008FBC6B /* Foundation.framework in Frameworks */,
 				6FD3340B160A85EA008FBC6B /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +84,7 @@
 		6FD333F7160A85EA008FBC6B = {
 			isa = PBXGroup;
 			children = (
+				6FD3343B160A8696008FBC6B /* MessageUI.framework */,
 				6FD3340C160A85EA008FBC6B /* InstaEmail */,
 				6FD3342A160A85EB008FBC6B /* InstaEmailTests */,
 				6FD33405160A85EA008FBC6B /* Frameworks */,
