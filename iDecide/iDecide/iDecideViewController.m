@@ -14,6 +14,13 @@
 
 @implementation iDecideViewController
 
+@synthesize decisionText=decisionText_;
+
+-(IBAction)buttonPressed:(id)sender
+{
+    decisionText_.text = @"Go for it!";
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
